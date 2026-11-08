@@ -187,3 +187,69 @@ footer a:link { color: #A8DADC; }
 footer a:visited { color: #F1FAEE; }
 footer a:hover { color: #F4A261; }
 footer a:active { color: #FFFFFF; }
+
+#formulario-contacto {
+    width: 100%;
+}
+
+#formulario-contacto label{
+    padding-left: 0.5em;
+}
+
+#formulario-contacto input, textarea{
+    margin: 0.5em;
+    padding-left: 0.25em;
+}
+
+#nombre, #contacto, #email{
+    width: 25%;
+}
+
+#edad{
+    margin: 0.5em;
+    padding-left: 0.25em;
+    width: 3%;
+}
+
+#telefono {
+    margin: 0.5em;
+    padding-left: 0.25em;
+    width: 12%;
+}
+
+#texto-aceptar {
+    font-weight: bold;
+}
+
+#formulario-contacto input:focus,
+#formulario-contacto textarea:focus {
+    border-color: #1D3557;
+    outline: none;
+    border-radius: 0.5em;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 2em;
+    margin-bottom: 1em;
+    text-decoration: underline;
+}
+
+fieldset {
+    border: none;
+}
+
+#formulario-contacto button {
+    border-radius: 1em;
+    background-color: #1D3557;
+    color: #F1FAEE;
+    padding: 0.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+#formulario-contacto button:hover {
+    text-decoration: underline;
+    background-color: #457B9D;
+}
