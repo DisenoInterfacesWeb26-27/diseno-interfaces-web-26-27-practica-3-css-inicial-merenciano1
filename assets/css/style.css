@@ -80,11 +80,22 @@ table {
     background-color: #FFFFFF;
     color: #1D3557;
     font-size: 1em;
+    table-layout: auto;
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1em;
 }
 
-th {
-    background-color: #457B9D;
-    color: #FFFFFF;
+caption {
+    color: #1D3557;
+    caption-side: bottom;
+    font-weight: bold;
+}
+
+th, td {
+    border: 1px solid #1D3557;
+    text-align: center;
+    padding: 1em;
 }
 
 nav ul {
