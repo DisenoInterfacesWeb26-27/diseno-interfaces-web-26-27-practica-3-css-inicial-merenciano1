@@ -143,3 +143,47 @@ aside a {
     width: 48px;
     height: 48px;
 }
+
+tbody tr:nth-child(odd) {
+    background-color: #FFFFFF;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #F1FAEE;
+}
+
+tbody tr:first-child {
+    background-color: #A8DADC;
+    font-weight: bold;
+}
+
+main a:link { color: #457B9D; }
+main a:visited { color: #1D3557; }
+main a:hover { 
+    color: #F4A261; 
+    text-decoration: underline; 
+}
+main a:active { color: #A8DADC; }
+
+nav a:link, nav a:visited {
+    background-color: #A8DADC;
+    color: #1D3557;
+}
+nav a:hover {
+    background-color: #1D3557;
+    color: #FFFFFF;
+}
+nav a:active {
+    background-color: #F4A261;
+    color: #1D3557;
+}
+
+aside a:link { color: #457B9D; }
+aside a:visited { color: #1D3557; }
+aside a:hover { color: #F4A261; }
+aside a:active { color: #A8DADC; }
+
+footer a:link { color: #A8DADC; }
+footer a:visited { color: #F1FAEE; }
+footer a:hover { color: #F4A261; }
+footer a:active { color: #FFFFFF; }
